@@ -10,8 +10,7 @@ DEPENDPATH += .
 INCLUDEPATH += .
 
 # Input
-HEADERS += contactlistentry.h \
-           lgaddcontactwindow.h \
+HEADERS += lgaddcontactwindow.h \
            lgchatwindow.h \
            lgconnectionthread.h \
            lgcontactlist.h \
@@ -20,8 +19,7 @@ HEADERS += contactlistentry.h \
     lgsettingswindow.h
 FORMS += lgaddcontactwindow.ui lgchatwindow.ui mainwindow.ui \
     lgsettingswindow.ui
-SOURCES += contactlistentry.cpp \
-           lgaddcontactwindow.cpp \
+SOURCES += lgaddcontactwindow.cpp \
            lgchatwindow.cpp \
            lgconnectionthread.cpp \
            lgcontactlist.cpp \
